@@ -1,0 +1,103 @@
+ /*/////////////////////////// home.html//////////////////////////////////*/
+ body{
+    background-color: #d2d6de;
+ }
+ a{
+    text-decoration: none !important;
+    color: white;
+ }
+ .dropdown-toggle::after {
+    content: none;
+   }
+   
+  .list-icon ul li  {
+    height: 20px;
+    width: 20px;
+   margin: 0px 5px;
+   padding: 15px 25px;
+    background-color: #0067B9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-icon  li:nth-child(4),.list-icon li:nth-child(1){
+    background-color: #F51852 !important;
+}
+.list-icon li:nth-child(5){
+    background-color: #60aceb !important;
+}
+
+.list-title ul li:nth-child(1){
+    background-color: #F51852 !important;
+    
+   
+}
+
+.list-title ul li:nth-child(2){
+    background-color: #0067B9 !important;
+    
+   
+}
+.list-title ul li:nth-child(3){
+    background-color: #701a93 !important;
+    
+   
+}
+.list-title ul li:nth-child(4){
+    background-color: #dda639 !important;
+    
+   
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #701a93;
+    background-color: white;
+}
+.nav-pills .nav-link{
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3) inset;
+    margin: 0px 1px;
+    color: white;
+    background-color: #701a93;
+}
+
+.final-list ul li:nth-child(1){
+background-color: #60aceb;
+}
+.final-list ul li:nth-child(2){
+    background-color: #dda639;
+    }
+ .final-list ul li:nth-child(3), .final-list ul li:nth-child(9),.final-list ul li:nth-child(5){
+        background-color: #F51852;
+        }
+        .final-list ul li:nth-child(4){
+            background-color: #701a93;
+            }
+          
+                .final-list ul li:nth-child(6){
+                    background-color: #2d303d;
+                    }
+                    .final-list ul li:nth-child(7){
+                        background-color: #90c960;
+                        }
+.final-list .second li:nth-child(1){
+    background-color: #F51852;
+}
+.final-list .second li:nth-child(2){
+    background-color: #0067B9;
+}
+.bg-red{
+    background-color: red;
+}
+.text-yellow{
+    color: yellow;
+}
+.scrollable-div {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden
+  }
+  /* .user ,.client ,.plus{
+    border: 1px solid gray;
+  } */
+  .plus{
+    color: #0067B9;
+  }
